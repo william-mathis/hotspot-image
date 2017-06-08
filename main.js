@@ -4,7 +4,7 @@ $(document).ready(function () {
 		console.log('click worked')
 		var circle_clicked = $(this),
 			text = circle_clicked.data("text"); //looks for the data-text attribute and stores its value
-
+		// so what?
 		$(".popIn").text(text); //assigns the text for the element to the popIn container in the slide
 
 		$("#slide_1").addClass("active"); //add a class active to #slide_1 to apply the #slide.active styles to it, making it visible
